@@ -76,6 +76,8 @@ Here, we will:
  - Check for missing values, outliers, and data integrity.
  - Provide initial insights into the composition and structure of the dataset.
 
+![image.png](./images/part1.png)
+*example of data visualization*
 
 ## Understanding the Features (How ?)
 
@@ -87,6 +89,12 @@ We will:
  - Create visualizations (e.g., pairplots, correlation matrices) to identify patterns and dependencies.
  - Discuss potential interactions between features that could be significant for further analysis.
 
+![image.png](./images/part2_1.png)
+*correlation matrix ...*
+
+![image.png](./images/part2_2.png)
+*...and visualization by features*
+
 ## t-SNE and Evaluation
 
 t-SNE (t-Distributed Stochastic Neighbor Embedding) is used to reduce the dimensionality of the data and visualize any potential clusters. The question we aim to answer here is: "Why use t-SNE, and what are its limitations?"
@@ -97,12 +105,19 @@ Key steps include:
  - Evaluate the quality of the clusters and interpret the results.
  - Address the limitations of t-SNE, such as its sensitivity to hyperparameters.
 
+ ![image.png](./images/part3.png)
+*example of t-sne result*
+
 ## (Bonus) Machine Learning Classification
 
 In this bonus section, we apply machine learning models to solve a classification problem using the dataset. We will focus on:
 
  - Random Forest: A robust model known for its high performance in classification tasks.
  - K-Nearest Neighbors (KNN): A simple yet effective classification algorithm to compare with Random Forest's performance.
+
+ ![image.png](./images/part4.png)
+*feature rankings with random forest*
+
 
 # Contributions
 <sup>[(Back to top)](#table-of-contents)</sup>
